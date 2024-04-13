@@ -2,7 +2,7 @@
   "name": "svgl",
   "displayName": "svgl",
   "description": "svlg library in your vscode IDE",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "estevesegura",
   "engines": {
     "vscode": "^1.88.0"
