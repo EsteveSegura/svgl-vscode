@@ -2,6 +2,8 @@
 
 ## Overview
 
+![Demo gif](./images/svgl.gif)
+
 The SVGL-VSCode extension integrates the robust SVG library from SVGL.app directly into Visual Studio Code, allowing users to search, select, and insert SVG graphics into their projects seamlessly. This extension simplifies the workflow for developers and designers by providing quick access to a vast collection of SVGs without leaving the IDE.
 
 ## Features
