@@ -1,65 +1,38 @@
-# svgl-vscode README
+# SVGL-VSCode
 
-This is the README for your extension "svgl-vscode". After writing up a brief description, we recommend including the following sections.
+## Overview
+
+The SVGL-VSCode extension integrates the robust SVG library from SVGL.app directly into Visual Studio Code, allowing users to search, select, and insert SVG graphics into their projects seamlessly. This extension simplifies the workflow for developers and designers by providing quick access to a vast collection of SVGs without leaving the IDE.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- **Search SVGs:** Quickly search for SVGs by typing the name or keywords related to the SVG you need and will be inserted in your code.
+- **Multi-language Support:** Currently supports English and Spanish, adapting automatically to the language settings of your VSCode environment.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+Install SVGL-VSCode from the Visual Studio Code Marketplace or search for "svgl-vscode" in the VSCode Extensions view (`Ctrl+Shift+X`).
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+1. **Open the Command Palette** (`Ctrl+Shift+P`).
+2. **Type "Insert SVG"** and select the `Insert SVG` command.
+3. **Enter the SVG name** or related keywords in the input box that appears.
+4. **Select the SVG** you wish to use from the quick pick menu.
+5. The SVG will be **inserted at your cursor's current position** in the active editor.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Contributing
 
-## Extension Settings
+Contributions are welcome! Feel free to open issues or submit pull requests on our GitHub repository for bug fixes, features, or documentation improvements.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## Feedback
 
-For example:
+If you encounter any problems or have suggestions, please open an issue on the GitHub repository. We appreciate your feedback to help improve this extension!
 
-This extension contributes the following settings:
+## License
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
 
-## Known Issues
+## Acknowledgements
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+- Thanks to the SVGL.app team for providing the SVG library and API that powers this extension.
