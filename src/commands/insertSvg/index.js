@@ -6,7 +6,7 @@ const translations = languageService.loadLanguage();
 
 function insertSVGCommand(context) {
     // The command is asynchronous and uses error handling to manage command execution
-    let disposable = vscode.commands.registerCommand('svgl-vscode.insertSVG', async () => {
+    let disposable = vscode.commands.registerCommand('svgl.insertSVG', async () => {
         try {
             const query = await _getUserInput();
             if (query) {

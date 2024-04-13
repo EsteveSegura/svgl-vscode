@@ -1,6 +1,6 @@
 {
-  "name": "svgl-vscode",
-  "displayName": "svgl-vscode",
+  "name": "svgl",
+  "displayName": "svgl",
   "description": "svlg library in your vscode IDE",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "svgl-vscode.insertSVG",
+        "command": "svgl.insertSVG",
         "title": "insert SVG"
       }
     ]

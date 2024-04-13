@@ -11,7 +11,7 @@ The SVGL-VSCode extension integrates the robust SVG library from SVGL.app direct
 
 ## Installation
 
-Install SVGL-VSCode from the Visual Studio Code Marketplace or search for "svgl-vscode" in the VSCode Extensions view (`Ctrl+Shift+X`).
+Install SVGL from the Visual Studio Code Marketplace or search for "svgl" in the VSCode Extensions view (`Ctrl+Shift+X`).
 
 ## Usage
 
