@@ -13,7 +13,7 @@ describe('SVG Service', () => {
             const result = await fetchSVGs('test');
 
             expect(result).toEqual({ data: 'some SVG data' });
-            expect(fetch).toHaveBeenCalledWith('https://svgl.app/api/svgs?search=test');
+            expect(fetch).toHaveBeenCalledWith('https://api.svgl.app?search=test');
         });
 
         it('should throw an error when the service is down', async () => {
