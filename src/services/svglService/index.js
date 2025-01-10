@@ -1,5 +1,5 @@
 async function fetchSVGs(query) {
-    const response = await fetch(`https://svgl.app/api/svgs?search=${encodeURIComponent(query)}`);
+    const response = await fetch(`https://api.svgl.app?search=${encodeURIComponent(query)}`);
     if (!response.ok) {
         throw new Error('SVGL service is down');
     }
