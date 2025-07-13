@@ -4,6 +4,8 @@
 
 The SVGL-VSCode extension integrates the robust SVG library from SVGL.app directly into Visual Studio Code, allowing users to search, select, and insert SVG graphics into their projects seamlessly. This extension simplifies the workflow for developers and designers by providing quick access to a vast collection of SVGs without leaving the IDE.
 
+![SVGL-VSCode Demo](images/demo.gif)
+
 ## Features
 
 - **Search SVGs:** Quickly search for SVGs by typing the name or keywords related to the SVG you need and will be inserted in your code.
@@ -31,7 +33,7 @@ If you encounter any problems or have suggestions, please open an issue on the G
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 

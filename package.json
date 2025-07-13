@@ -2,7 +2,9 @@
   "name": "svgl",
   "displayName": "svgl",
   "description": "svlg library in your vscode IDE",
-  "version": "0.0.1",
+  "version": "0.0.4",
+  "publisher": "EsteveSegura",
+  "icon": "images/logo.png",
   "engines": {
     "vscode": "^1.88.0"
   },
@@ -24,6 +26,14 @@
     "pretest": "npm run lint",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EsteveSegura/svgl-vscode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EsteveSegura/svgl-vscode/issues"
+  },
+  "homepage": "https://github.com/EsteveSegura/svgl-vscode#readme",
   "devDependencies": {
     "@types/node": "18.x",
     "@types/vscode": "^1.88.0",
